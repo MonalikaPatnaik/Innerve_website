@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Innerve</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html" >HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="#about">ABOUT</a>
+          </li>
+
+          <li class="nav-item  ">
+            <a class="nav-link " aria-current="page" href="#footer">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <a href="index.html" class="fas fa-angle-up" id="scroll-top"></a>
+<section>
+     <div class="header">
+        <p>INNERVE</p>
+</div> 
+</section>
+<div class="heading-about"id="about">
+  <h1>ABOUT US</h1>
+  <h3>Innerve is the annual technical fest of Indira Gandhi Delhi Technical University for Women (IGDTUW).</h3>
+    </div>
+     <script type="text/javascript">
+         function createBubbles(){
+             const section = document.querySelector('section')
+             const createElement = document.createElement('span')
+
+             var size = Math.random() *60;
+
+             createElement.style.width = 23 + size + 'px';
+             createElement.style.height = 23  + size + 'px';
+             createElement.style.left = Math.random() * innerWidth + "px";
+             section.appendChild(createElement);
+
+             setTimeout(() => {
+                 createElement.remove()
+             },4000)
+         }
+         setInterval(createBubbles,50);
+</script>  
+<!-- footer starts -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 footer-info">
+          <h4>About Us</h4>
+          <li>Innerve is the annual technical fest of Indira Gandhi Delhi Technical University for Women (IGDTUW).</li>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-links">
+          <h4>ADDRESS</h4>
+          <ul>
+            <li><i class="fa fa-angle-right"></i> <a href="#"> James Church, New Church Road, Kashmere Gate</a></li>
+            <li><i class="fa fa-angle-right"></i> <a href="#">0123456789</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 footer-contact">
+          <h4>Contact Us</h4>
+          <li>
+           
+            <strong>Phone:</strong> 0123456789<br>
+            <strong>Email:</strong> abcdef@gmail.com<br>
+          </li>
+
+          <div class="social-links">
+            
+              <img src="https://quantumsg.com/wp-content/uploads/2021/10/linkedin-logo.png" alt="linkedin image" height="40px" width="40px">
+          
+          
+              <img src="https://www.thebusinessdesk.com/_files/images/Instagram-logo-225.png" alt="instagram image" height="40px" width="40px">
+          
+          
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtOAX6O4GVXfNnH2SBKaU6-eSJhJXDjfKfBtHHCoyZWT3PWo01NueKZu74qTWco9Nr9G8&usqp=CAU" alt="twitter image" height="40px" width="40px">
+          
+          
+              <img src="https://cdn.iconscout.com/icon/free/png-256/social-225-96740.png" alt="github image" height="38px" width="36px">
+          
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright All Rights Reserved
+    </div>
+   
+  </div>
+</footer>
+  <!-- jquery cdn -->
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+
+<script src="script.js"></script>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>  
+</body>
+</html>
